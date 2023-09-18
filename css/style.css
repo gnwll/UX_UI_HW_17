@@ -1,33 +1,40 @@
-    .nav {
-        width: 50%;
-        margin-left: auto;
-    }
-    .nav li {
-        display: inline-block;
-        vertical-align: top;
-    }
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    .logo {
-        width: 23%;
-        padding: 1%;
-        text-align: center;
-    }
+/* Header Styles */
+.nav {
+    width: 50%;
+    margin-left: auto;
+}
 
-    .heroImg {
-        height: 600px;
-        padding: 25px;
-    }
-    .content {
-        width: 500px;
-        margin: 0 auto;
-    }
+.nav li {
+    display: inline-block;
+    vertical-align: top;
+}
 
-    .footer {
-        background-color: #373738;
-        padding: 20%;
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
 
-    }
-    .ul {
-        display: inline-block;
-        vertical-align: top;
-    }
+/* Hero Section Styles */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+/* Main Content Styles */
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #373738;
+    padding: 20px;
+}
